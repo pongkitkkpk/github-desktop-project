@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'
 import './navlink.css'
-import Products from './product'
-import Home from './home'
-import Member from './member'
+import Products from './page/product'
+import Home from './page/home'
+import Member from './page/member'
 export default function Router3() {
     return (
         <BrowserRouter>
