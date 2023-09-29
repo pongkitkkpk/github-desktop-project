@@ -1,13 +1,12 @@
 import React from "react";
-
-import Router3 from "./router3";
+import FormText from "./form-boots/form-test";
 
 
 function App() {
 
   return (
 
-    <Router3/> 
+    <FormText/>
 
   )
 }
