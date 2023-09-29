@@ -1,14 +1,11 @@
 import React from "react";
-import FormText from "./form-boots/form-test";
 
+import FormCheck from "./form-boots/form-check";
 
-function App() {
+export default function App() {
 
   return (
 
-    <FormText/>
-
+    <FormCheck/>
   )
 }
-
-export default App
